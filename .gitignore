@@ -1,52 +1,25 @@
-# Prerequisites
-*.d
+secrets.txt
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Created by https://www.gitignore.io/api/firebase,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=firebase,visualstudiocode
 
-# Precompiled Headers
-*.gch
-*.pch
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
