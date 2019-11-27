@@ -23,3 +23,9 @@ secrets.txt
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+
+### Elm ###
+# elm-package generated files
+elm-stuff
+# elm-repl generated files
+repl-temp-*
